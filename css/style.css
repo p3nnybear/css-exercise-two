@@ -1,7 +1,10 @@
+html {
+  font-size: 100%;  /* = 16px */
+}
+
 body {
   background-color: green;
   color: orange;
-  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2;
 }
@@ -11,27 +14,27 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
-  font-size: 16px
+  font-size: 1rem
 }
 figure {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
-
 }
 
 h1 {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.8;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-break: normal;
 }
 
 p {
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
+  padding-bottom: 20px;
 }
 .logo {
   margin: 20px;
@@ -43,7 +46,7 @@ p {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 40%;
 }
 
 .left, .right {
@@ -77,5 +80,8 @@ article {
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
+}
+.author  {
+  color: black
 }
